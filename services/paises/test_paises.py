@@ -37,7 +37,7 @@ class Test_paises:
     @pytest.mark.parametrize(
         ["id_entrada","esperado_entrada"], 
         [("PR","Pais encontrado"),
-         ("ARG","Id no encontrado")]
+         ("AR","Id no encontrado")]
     )
     def test_busqueda(self,id_entrada,esperado_entrada):
         idPais = id_entrada
@@ -84,9 +84,6 @@ class Test_paises:
         [("PR","Pais eliminado con exito"),
          ("TEST","Pais no existe")]
     )
-
-    
-
     def test_elimina(self,id_entrada,esperado_entrada):
         idPais = id_entrada
         esperado = esperado_entrada
