@@ -38,9 +38,6 @@ CREATE TABLE `autores` (
 -- Volcado de datos para la tabla `autores`
 --
 
-INSERT INTO `autores` (`idAutor`, `nombre`, `email`, `idPais`) VALUES
-('001', 'Autor Modificado', 'modificado@test.com', 'CA'),
-('AU001', 'Autor Modificado', 'modificado@test.com', 'CO');
 
 -- --------------------------------------------------------
 
@@ -133,12 +130,6 @@ CREATE TABLE `usuarios` (
 -- Volcado de datos para la tabla `usuarios`
 --
 
-INSERT INTO `usuarios` (`idUsuario`, `nombre`, `contrasena`) VALUES
-('afvelasco', 'Andrés Fernando Velasco', 'd404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db'),
-('danielguapo', 'Daniel el Guapo', '4444'),
-('joseysamuel', 'jose', '9876'),
-('posadita', 'Kevin', '3114251'),
-('santiago caiced', 'daniel', '0000');
 
 --
 -- Índices para tablas volcadas
