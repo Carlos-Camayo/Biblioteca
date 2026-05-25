@@ -1,6 +1,5 @@
 from conexion import *
 from paises import mis_paises
-
 programa = Flask(__name__)
 api = Api(programa)
 
