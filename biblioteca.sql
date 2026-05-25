@@ -100,10 +100,7 @@ CREATE TABLE `paises` (
 -- Volcado de datos para la tabla `paises`
 --
 
-INSERT INTO `paises` (`idPais`, `nombre`, `continente`) VALUES
-('CA', 'Canada', 'America'),
-('CO', 'Colombia', ''),
-('MX', 'Mexico', 'Sur America');
+
 
 -- --------------------------------------------------------
 
